@@ -1,26 +1,29 @@
+:root {
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
   font-family: 'Montserrat', sans-serif;
-  font-size: 62.5%;
 }
 
 .page {
-  max-width: 400px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 header {
+  margin-top: 2rem;
   text-align: center;
 }
 
 .user img {
   border-radius: 16px;
-  width: 101.76px;
-  height: 101.76px;
-  margin-top: 2rem;
+  width: 10.176rem;
+  height: 10.176rem;
 
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
 }
@@ -54,8 +57,8 @@ header {
 }
 
 .status .content {
-  width: 78px;
-  height: 52px;
+  width: 7.8rem;
+  height: 5.2rem;
   background: #e5e5e5;
   border-radius: 12px;
   display: grid;
@@ -85,7 +88,8 @@ header {
 }
 
 main {
-  margin: 40px 20px;
+  max-width: 800px;
+  margin: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
@@ -100,33 +104,31 @@ main img {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
 }
 main img:nth-child(1) {
-  height: 10rem;
+  width: 100%;
 
   grid-area: a;
 }
 main img:nth-child(2) {
-  height: 10rem;
-
-  width: max-content;
+  width: 100%;
   grid-area: b;
 }
 main img:nth-child(3) {
-  height: 10rem;
+  width: 100%;
 
   grid-area: c;
 }
 main img:nth-child(4) {
-  height: 21rem;
+  width: 100%;
 
   grid-area: d;
 }
 main img:nth-child(5) {
-  height: 10rem;
+  width: 100%;
 
   grid-area: e;
 }
 main img:nth-child(6) {
-  height: 10rem;
+  width: 100%;
 
   grid-area: f;
 }
@@ -152,4 +154,23 @@ footer p a {
   font-size: 1.6rem;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 80%;
+  }
+
+  header {
+    margin-top: 0.5rem;
+  }
+
+  main {
+    gap: 20px;
+    margin: 2rem;
+  }
+
+  footer {
+    margin: 0;
+  }
 }
