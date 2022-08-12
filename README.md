@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-     <a href="https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1
+     <a href="[https://www.figma.com/file/4B0x88GhiZvgVlcQPSQ73D/checkout-page-challenge?node-id=0%3A1](https://www.figma.com/file/HHzg6Ywq8jamFTB0J4iXKM/my-gallery-challenge?node-id=0%3A1)
 ">
       Demo
     </a>
@@ -17,7 +17,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
+    <a href="[https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I)">
       Challenge
     </a>
   </h3>
