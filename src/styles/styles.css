@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+}
+
+.page {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+.user img {
+  border-radius: 16px;
+  width: 101.76px;
+  height: 101.76px;
+  margin-top: 2rem;
+
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+}
+
+.user h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+
+  color: #4e5150;
+
+  margin: 0.4rem 0;
+}
+
+.user h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 12px;
+
+  color: #a9a9a9;
+  margin-bottom: 0.4rem;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.status .content {
+  width: 78px;
+  height: 52px;
+  background: #e5e5e5;
+  border-radius: 12px;
+  display: grid;
+
+  align-content: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+}
+
+.status .content .numbers {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 15px;
+  text-align: center;
+
+  color: #4e5150;
+}
+
+.status .content p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 15px;
+  text-align: center;
+
+  color: #bdbdbd;
+}
+
+main {
+  margin: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-areas:
+    'a b b'
+    'c c d'
+    'e f d';
+}
+
+main img {
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+}
+main img:nth-child(1) {
+  height: 10rem;
+
+  grid-area: a;
+}
+main img:nth-child(2) {
+  height: 10rem;
+
+  width: max-content;
+  grid-area: b;
+}
+main img:nth-child(3) {
+  height: 10rem;
+
+  grid-area: c;
+}
+main img:nth-child(4) {
+  height: 21rem;
+
+  grid-area: d;
+}
+main img:nth-child(5) {
+  height: 10rem;
+
+  grid-area: e;
+}
+main img:nth-child(6) {
+  height: 10rem;
+
+  grid-area: f;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+footer p {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 17px;
+
+  color: #b9bdcf;
+}
+
+footer p a {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+  font-size: 1.4rem;
+  color: black;
+  font-size: 1.6rem;
+  text-decoration: none;
+  cursor: pointer;
+}
